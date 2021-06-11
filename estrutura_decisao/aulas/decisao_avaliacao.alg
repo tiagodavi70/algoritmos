@@ -12,6 +12,7 @@ resultado <- (num1 + num2 + num3)/3;
 
 Se resultado >= 5 Entao
     escreva("Aprovado")
+fimse
 Se resultado < 5 Entao
     escreva("Reprovado")
 fimse
