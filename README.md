@@ -4,7 +4,7 @@ Repositório para organização do material em VisuAlg, assim como as listas de 
 
 Listas
 * [Entrada e Saída & Operações Aritméticas](./entrada_saida_operacoes)
-* Estruturas Condicionais
+* [Estruturas Condicionais](./estrutura_decisao)
 * Estruturas de Repetição
 * Vetores e Matrizes
 * Funções
