@@ -7,18 +7,17 @@ int main(){
 
     if (1) printf("Valor verdadeiro \n");
 
-    if (0) 
-    { 
+    if (0) { 
         printf("Esse aqui não aparece");
     }
 
     if (8 < 3) {
         printf("Esse aqui não aparece");
     } else {
-        printf("Quando e falso entra no else");
+        printf("Quando e falso entra no else \n");
     }
 
-    printf("Numeros e char podem ser comparados diretamente");
+    printf("Numeros e char podem ser comparados diretamente \n");
     // == para igualdade, >= e <= para maior e menor igual que, != para diferente
     if ( 22 == 22 && 'a' != 'c' && 56 > 32) 
     {
@@ -40,12 +39,12 @@ int main(){
     int entrada;
     scanf("%d", &entrada);
     if (entrada < 10) {
-       printf("Menor que 10");
+       printf("Menor que 10 \n");
     } else {
-        if (entrada > 10 && entrada < 20) 
-            printf("Maior que 10 e menor que 20");
-        else  {
-            printf("Maior que 20");
+        if (entrada > 10 && entrada < 20) { 
+            printf("Maior que 10 e menor que 20 \n");
+        } else  {
+            printf("Maior que 20 \n");
         }
     }
 
