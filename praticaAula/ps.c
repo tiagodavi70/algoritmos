@@ -6,7 +6,10 @@ int main()
     // valor pode não caber na memória
     unsigned int tamanho = 100000000;
     printf("%d\n", sizeof(char));
-    p = (float *)calloc(tamanho, sizeof(float));
+    // p = (float *)calloc(tamanho, sizeof(float));
+    
+    int a = 10;
+    int* numero = (int *)malloc(a, sizeof(int));
     if (!p)
     {
         printf("alocacao fracassada - abortado");
