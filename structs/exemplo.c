@@ -6,7 +6,6 @@ typedef struct {
     int idade;
     float altura;
     char nome[30];
-    // Pessoa *mae;
 } Pessoa;
 
 int main()
