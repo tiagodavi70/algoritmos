@@ -10,8 +10,10 @@ int main(void) {
         printf("\nArquivo nao pode ser aberto : tecle algo para sair.\n");
         getch();
     } else {
-        char texto[50];
+        char texto[50]; //, texto2[50];
+        // int numero;
         char texto_aux = fscanf(arquivo, "%s", &texto);
+        // char texto_aux = fscanf(arquivo, "%s %s %d", &texto, &texto2, &numero);
         printf("%s ", texto);
 
         while (texto_aux != EOF ) {
@@ -19,12 +21,6 @@ int main(void) {
             printf("%s ", texto);
         }
         fclose(arquivo);
-        // int resultado = fputs("Programando em Linguagem C.", arquivo);
-        // if( resultado == EOF) {
-        //     printf("Erro ao tentar gravar os dados! \n");
-        // }
-        // else {
-        //     printf("Dados gravados com sucesso. \n");
-        // }
+        
     }
 }
